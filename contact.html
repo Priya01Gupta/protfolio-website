@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Priya, web developer, programmer</title>
+    <style>
+        .contactform {
+            font-family: 'Source Code Pro', monospace;
+            padding-top: 144px;
+            padding: 0 34px;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        .contactform h1 {
+            font-family: 'Poppins', sans-serif;
+            text-align: center;
+            padding: 12px 0px;
+        }
+
+        .contactform form div {
+            padding: 8px 0px;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .contactform form div input {
+            width: 34vw;
+            border-radius: 7px;
+            margin: 4px 0px;
+            padding: 4px;
+        }
+
+        #emailhelp {
+            font-size: 8px;
+            color: #275680;
+            margin: 0px 23px;
+        }
+
+        .form-check {
+            flex-direction: column;
+        }
+
+        .form-check input {
+            width: 1px;
+            margin: 3px 0px;
+        }
+
+        .btn{
+            margin: 0px 3px;
+            color: aqua;
+            background-color: rgb(177, 66, 177);
+            padding: 4px 14px;
+            border-radius: 12px;
+            cursor: pointer;
+        }
+
+        .btn:hover {
+            color: rgb(177, 66, 177);
+            background-color: aqua;
+        }
+
+        .btn-sm{
+            font-size: 16px;
+            padding: 10px 19px;
+            margin: 12px 0px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="main">
+        <div class="contactform">
+            <h1>Contact me for work/genral enquiries</h1>
+            <form>
+                <div class="mb-3">
+                    <label for="clientEmail" class="form-label">Name</label>
+                    <input type="name" class="form-control" id="clientEmail1" aria-describedby="emailHelp">
+                </div>
+                <div class="mb-3">
+                    <label for="clientEmail" class="form-label">Email address</label>
+                    <input type="email" class="form-control" id="clientEmail1" aria-describedby="emailHelp">
+                    <div id="emailHelp" class="form-text">We'll never share your email & phone with anyone else.</div>
+                </div>
+                <div class="mb-3">
+                    <label for="clientphone" class="form-label">phone</label>
+                    <input type="phone" class="form-control" id="clientphone">
+                </div>
+                <div class="mb-3">
+                    <label for="clientEmail" class="form-label">Enquiry</label>
+                    <input type="name" class="form-control" id="clientEmail1" aria-describedby="emailHelp">
+                </div>
+                <div class="mb-3" id= "form-check">
+                    <input type="checkbox" class="form-check-input" id="isclient">
+                    <label class="form-check-label" for="isclient">I want you to work on the project with me</label>
+                </div>
+                <div class="button"></div>
+                <button type="submit" class="btn btn-sm">Submit</button>
+            </form>
+        </div>
+    </div>
+    </div>
+</body>
+
+</html>
